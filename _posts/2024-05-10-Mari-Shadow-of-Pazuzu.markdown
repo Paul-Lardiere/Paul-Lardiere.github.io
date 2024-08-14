@@ -6,6 +6,7 @@ image:  Mari.png
 tags:   Third-Person PvE Roguelike
 ---
 Mari: Shadows of Pazuzu is a cooperative roguelike in which you team up with up to 3 friends to advance through the city of Mari and gain powerful spells and upgrades to defeat your enemies. Combine powerful abilities with your friends to create even more powerful spells and save the city!
+
 ***
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ynAOt49ZM-E?si=gMcPnnuyp8IRYoSn&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ---
@@ -36,9 +37,13 @@ Enemies are grouped into squads and will patrol the area when they don't have a 
 We put significant effort into refining our group movement mechanics, ensuring that our squads move in a logical and realistic manner.
 <img src="{{site.baseurl}}/images/Orc.gif" alt="">
 
+---
 
 Our melee enemies are designed to surround the player(s) and launch coordinated attacks. 
 <img src="{{site.baseurl}}/images/Surround.gif" alt="">
+
+--- 
+
 They also strategically position themselves to avoid being hit by their own casters' attacks.
 <img src="{{site.baseurl}}/images/Avoiding.gif" alt="">
 
