@@ -5,32 +5,62 @@ date:   2024-05-10 15:01:35 +0300
 image:  Mari.png
 tags:   Third-Person PvE Roguelike
 ---
-Yeah, and if you were the pope they'd be all, "Straighten your pope hat." And "Put on your good vestments." Noooooo! Perhaps, but perhaps your civilization is merely the sewer of an even greater society above you!
+Mari: Shadows of Pazuzu is a cooperative roguelike in which you team up with up to 3 friends to advance through the city of Mari and gain powerful spells and upgrades to defeat your enemies. Combine powerful abilities with your friends to create even more powerful spells and save the city!
+***
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ynAOt49ZM-E?si=gMcPnnuyp8IRYoSn&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+---
+This game was developed on Unreal engine 5, mostly in C++, we used The Gameplay ability system (GAS) for spells, AI attacks, effects, health etc. 
+Game developed as a School project at DDJV, Université de Sherbrooke, Longueuil.
 
-You lived before you met me?! Ow, my spirit! Humans dating robots is sick. __You people wonder why I'm still single?__ *It's 'cause all the fine robot sisters are dating humans!* I guess if you want children beaten, you have to do it yourself.
+* Antoine Girard
+* Gras Yael
+* Larsonneur Ugo
+* Wyss Matthias
+* Sénéchal Erwan
+* Richard Paul
+* Lardiere Paul
 
-<iframe src="https://www.youtube.com/watch?v=ynAOt49ZM-E" frameborder="0" allowfullscreen></iframe>
-## Are you crazy? I can't swallow that.
+***
+## Spells
 
-Oh, I don't have time for this. I have to go and buy a single piece of fruit with a coupon and then return it, making people wait behind me while I complain. Meh. So, how 'bout them Knicks? Also Zoidberg.
+Combat revolves around spells: players can gain a new spell with each room cleared or level up an existing one. Spells can be cast individually, but they become incredibly powerful when combined. For example, if one player summons a tornado and another casts a fireball into it, the result is a devastating fire tornado. You can even combine more than two spells for even greater effects!
 
-1. We need rest. The spirit is willing, but the flesh is spongy and bruised.
-2. Fry, we have a crate to deliver.
-3. Have you ever tried just turning off the TV, sitting down with your children, and hitting them?
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CCl7MC0zK88?si=vsjv_ysciPU0oYVZ&rel=0&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
-### Why not indeed!
+***
+### AI
 
-Nay, I respect and admire Harold Zoid too much to beat him to death with his own Oscar. I don't 'need' to drink. I can quit anytime I want! Soothe us with sweet lies. Bender?! You stole the atom. You don't know how to do any of those.
+Enemies are grouped into squads and will patrol the area when they don't have a player in sight.
+  <img src="{{site.baseurl}}/images/Golem.gif" alt="">
 
-* Shinier than yours, meatbag.
-* This is the worst part. The calm before the battle.
-* Ooh, name it after me!
+We put significant effort into refining our group movement mechanics, ensuring that our squads move in a logical and realistic manner.
+<img src="{{site.baseurl}}/images/Orc.gif" alt="">
+
+
+Our melee enemies are designed to surround the player(s) and launch coordinated attacks. 
+<img src="{{site.baseurl}}/images/Surround.gif" alt="">
+They also strategically position themselves to avoid being hit by their own casters' attacks.
+<img src="{{site.baseurl}}/images/Avoiding.gif" alt="">
+
+***
+
+### Debug Tools
+
+Debugging our spell and AI systems was crucial to the development of this game, so we created a number of debugging tools to help us, here are just a few:
+
+##### Spell visual debug tool :
+
+This tool allows us to view who cast the spell, the spell level and any effects added to the spell.
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/P6ViERZS-7g?si=1LzaSck8CBqerLZI&rel=0" title="Spell debug tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xFaRjyye4ak?si=CaD4NY6Jg7Pd69Ty&rel=0" title="Spell debug tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 Say what? Throw her in the brig. Hey, you add a one and two zeros to that or we walk! You guys aren't Santa! You're not even robots. How dare you lie in front of Jesus? Ow, my spirit! Who's brave enough to fly into something we all keep calling a death sphere?
 
 Hey, you add a one and two zeros to that or we walk! You won't have time for sleeping, soldier, not with all the bed making you'll be doing. It's okay, Bender. I like cooking too. Hey, what kinda party is this? There's no booze and only one hooker.
 
-![]({{ site.baseurl }}/images/07.jpg)
+
+  <img src="{{site.baseurl}}/images/Animation.gif" alt="">
 *Minimalism*
 
 Ummm…to eBay? But I know you in the future. I cleaned your poop. I'm just glad my fat, ugly mama isn't alive to see this day. My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards.
