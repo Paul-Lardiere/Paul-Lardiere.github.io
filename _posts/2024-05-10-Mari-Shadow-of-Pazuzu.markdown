@@ -21,6 +21,8 @@ Game developed as a School project at DDJV, Université de Sherbrooke, Longueuil
 * Richard Paul
 * Lardiere Paul
 
+I mostly worked on building the AI systems and behavior, integrating them with the Gameplay Ability System (GAS) for handling attacks and health management, as well as ensuring proper replication.
+
 ***
 ## Spells
 
@@ -63,7 +65,7 @@ Finally, our game features four bosses, each utilizing a more straightforward AI
 
 ### Data driven
 
-Given the number of spells, upgrades and enemies available in the game, we focused on making our structure really scalable and data driven, all our sinergies for spells, stats for players and enemies are modifiable via .csv files. 
+Given the vast number of spells, upgrades, and enemies in the game, we concentrated on making our structure highly scalable and data-driven. All spell synergies, player stats, and enemy stats are modifiable through .csv files that can be directly imported into UE5. This system allows for easy adjustments to any spell statistics, synergy behaviors, or enemy stats, providing flexibility and efficiency in tweaking game mechanics.
 
 ***
 

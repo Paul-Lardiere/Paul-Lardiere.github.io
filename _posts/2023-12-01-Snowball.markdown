@@ -28,3 +28,8 @@ Our goal was to create a physics-based racing game using PhysX and to implement 
 * Speed lines
 * Radial blur
 * Snow rendering with noise
+
+---
+
+link to git :
+<a href="https://github.com/Paul-Lardiere/Project_Snowball">SnowBall GitHub</a>
