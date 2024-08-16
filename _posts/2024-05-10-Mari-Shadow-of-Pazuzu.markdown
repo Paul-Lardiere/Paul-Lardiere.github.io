@@ -10,7 +10,8 @@ Mari: Shadows of Pazuzu is a cooperative roguelike in which you team up with up 
 ***
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ynAOt49ZM-E?si=gMcPnnuyp8IRYoSn&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ---
-This game was developed on Unreal engine 5, mostly in C++, we used The Gameplay ability system (GAS) for spells, AI attacks, effects, health etc. 
+This game was developed using Unreal Engine 5, primarily in C++. We utilized the Gameplay Ability System (GAS) to manage spells, AI attacks, effects, health, and more. Additionally, the map is procedurally generated to improve replayability.
+
 Game developed as a School project at DDJV, Université de Sherbrooke, Longueuil.
 
 * Antoine Girard
