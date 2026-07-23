@@ -9,6 +9,7 @@ tags: First-Person Historical Narrative Adventure
 The Caribou Trail is a first-person historical narrative adventure following a group of Newfoundland soldiers during the First World War. Players explore the battlefield, confront the dangers of the front, and experience a deeply personal story about friendship, survival, and psychological trauma as reality gradually begins to unravel.
 
 [The Caribou Trail PlayStation Store page](https://store.playstation.com/fr-fr/concept/10015316)
+
 ***
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/z_9Ko3CitLY?si=2j192Tqk2sxY13XN"  title="The Caribou Trail trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
