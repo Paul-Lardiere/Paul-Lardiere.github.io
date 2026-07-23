@@ -13,7 +13,7 @@ During this year, I studied computer graphics, AI for video games, and significa
 
 For the past year, I’ve been working as a Gameplay Developer at Wild Blueberry Games in Montréal. I contribute to the development of tools, systems, UI, and gameplay features, while also refactoring and optimizing the existing codebase. I’ve also been involved in porting games to new platforms, which has strengthened my understanding of cross-platform constraints and engine-level systems. This ongoing experience has reinforced my passion for game programming and collaborative development in a professional environment.
 
-I’m now looking to return to France to continue my career as a video game programmer, with a strong interest in both gameplay and engine development. While I’m happy to keep growing as a gameplay programmer, I’m also excited to explore roles that could lead me toward engine-level programming.
+I’m now back in France and continuing to work fully remotely for my previous employer. I’m looking for an opportunity to join a France-based team on site as a video game programmer, with a strong interest in both gameplay and engine development.
 
 
 <embed src="{{site.baseurl}}/images/CV Paul Lardiere.pdf"  width="500" height="730" type="application/pdf">
